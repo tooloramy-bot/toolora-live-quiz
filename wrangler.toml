@@ -1,6 +1,7 @@
+
 name = "toolora-live-quiz"
 main = "src/index.ts"
-account_id = "3a77813251d473c40d8873a59f6c0e80"
+account_id = "f4aa1349d769d86f9f1349b039f95364"
 compatibility_date = "2025-04-01"
 compatibility_flags = ["nodejs_compat"]
 
@@ -23,8 +24,4 @@ binding = "DB"
 database_name = "toolora-live-quiz"
 database_id = "5236a711-cbc4-4262-8572-82734de16023"
 
-# Zero Trust Access — host app on kahoot-cf-host, AUD below. Bypass apps
-# (kahoot-cf-static, kahoot-cf-player-api) cover the public paths.
-[vars]
-CF_ACCESS_TEAM_DOMAIN = "htlin"
-CF_ACCESS_AUD = "4d0cebe9ab9b11dc3168539fadeb27c7a728e66a12d3b1aa36810435722c562f"
+# Cloudflare Access will be configured separately.
