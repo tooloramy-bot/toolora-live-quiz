@@ -4,10 +4,7 @@ account_id = "3a77813251d473c40d8873a59f6c0e80"
 compatibility_date = "2025-04-01"
 compatibility_flags = ["nodejs_compat"]
 
-workers_dev = false
-routes = [
-  { pattern = "kahoot.hsiehting.com", custom_domain = true },
-]
+workers_dev = true
 
 [assets]
 directory = "./public"
